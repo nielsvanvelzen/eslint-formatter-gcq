@@ -1,7 +1,24 @@
 {
 	"name": "eslint-formatter-gcq",
-	"version": "0.0.2",
+	"version": "0.0.3",
+	"description": "ESLint formatter for GitLab Code Quality ",
+	"keywords": [
+		"eslint",
+		"eslint-formatter",
+		"eslintformatter",
+		"gitlab",
+		"codeclimate"
+	],
+	"homepage": "https://github.com/nielsvanvelzen/eslint-formatter-gcq#readme",
+	"bugs": {
+		"url": "https://github.com/nielsvanvelzen/eslint-formatter-gcq/issues"
+	},
 	"license": "MIT",
+	"author": {
+		"name": "Niels van Velzen",
+		"url": "https://github.com/nielsvanvelzen"
+	},
+	"funding": "https://github.com/sponsors/nielsvanvelzen",
 	"files": [
 		"package.json",
 		"index.js",
@@ -9,7 +26,12 @@
 		"LICENSE",
 		"README.md"
 	],
+	"main": "./index.js",
+	"repository": "github:nielsvanvelzen/eslint-formatter-gcq",
 	"peerDependencies": {
-		"eslint": "8.*"
+		"eslint": "8.x"
+	},
+	"engines": {
+		"node": ">=18"
 	}
 }
