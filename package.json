@@ -1,14 +1,15 @@
 {
 	"name": "eslint-formatter-gcq",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"files": [
 		"package.json",
 		"index.js",
 		"types.d.ts",
-		"LICENSE"
+		"LICENSE",
+		"README.md"
 	],
 	"peerDependencies": {
-		"eslint": ">=8.*"
+		"eslint": "8.*"
 	}
 }

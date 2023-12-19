@@ -1,4 +1,4 @@
-namespace GitLabCodeQuality {
+declare namespace GitLabCodeQuality {
 	export interface Issue {
 		description: string;
 		check_name: string;
