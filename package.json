@@ -1,6 +1,6 @@
 {
 	"name": "eslint-formatter-gcq",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "ESLint formatter for GitLab Code Quality ",
 	"keywords": [
 		"eslint",
@@ -29,7 +29,7 @@
 	"main": "./index.js",
 	"repository": "github:nielsvanvelzen/eslint-formatter-gcq",
 	"peerDependencies": {
-		"eslint": "8.x || 9.x"
+		"eslint": "8.x || 9.x || 10.x"
 	},
 	"engines": {
 		"node": ">=18"
